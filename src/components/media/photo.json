@@ -1,0 +1,22 @@
+{
+  "collectionName": "components_media_photos",
+  "info": {
+    "displayName": "Photo",
+    "icon": "camera"
+  },
+  "options": {},
+  "attributes": {
+    "Photo": {
+      "allowedTypes": [
+        "images",
+        "files",
+        "videos"
+      ],
+      "type": "media",
+      "multiple": false
+    },
+    "Description": {
+      "type": "text"
+    }
+  }
+}
