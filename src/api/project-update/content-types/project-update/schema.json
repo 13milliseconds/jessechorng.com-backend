@@ -4,7 +4,8 @@
   "info": {
     "singularName": "project-update",
     "pluralName": "project-updates",
-    "displayName": "Project Update"
+    "displayName": "Project Update",
+    "description": ""
   },
   "options": {
     "draftAndPublish": true
@@ -23,6 +24,10 @@
       "relation": "manyToOne",
       "target": "api::project.project",
       "inversedBy": "project_updates"
+    },
+    "updateDate": {
+      "type": "date",
+      "required": true
     }
   }
 }
