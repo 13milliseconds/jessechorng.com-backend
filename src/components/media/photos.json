@@ -1,0 +1,15 @@
+{
+  "collectionName": "components_media_photos",
+  "info": {
+    "displayName": "photos",
+    "icon": "photo-video"
+  },
+  "options": {},
+  "attributes": {
+    "photo": {
+      "type": "component",
+      "repeatable": true,
+      "component": "media.photo"
+    }
+  }
+}

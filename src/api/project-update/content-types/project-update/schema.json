@@ -16,7 +16,9 @@
       "type": "dynamiczone",
       "components": [
         "media.photo",
-        "media.text"
+        "media.text",
+        "media.embed-video",
+        "media.photos"
       ]
     },
     "project": {

@@ -1,0 +1,13 @@
+{
+  "collectionName": "components_media_embed_videos",
+  "info": {
+    "displayName": "embed video",
+    "icon": "video"
+  },
+  "options": {},
+  "attributes": {
+    "code": {
+      "type": "text"
+    }
+  }
+}
