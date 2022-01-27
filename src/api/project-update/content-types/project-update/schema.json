@@ -15,7 +15,6 @@
     "Content": {
       "type": "dynamiczone",
       "components": [
-        "media.photo",
         "media.text",
         "media.embed-video",
         "media.photos"

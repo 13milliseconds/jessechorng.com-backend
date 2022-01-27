@@ -2,20 +2,22 @@
   "collectionName": "components_media_photos",
   "info": {
     "displayName": "Photo",
-    "icon": "camera"
+    "icon": "camera",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "Photo": {
+    "photo": {
+      "type": "media",
+      "multiple": false,
+      "required": false,
       "allowedTypes": [
         "images",
         "files",
         "videos"
-      ],
-      "type": "media",
-      "multiple": false
+      ]
     },
-    "Description": {
+    "description": {
       "type": "text"
     }
   }
