@@ -2,12 +2,14 @@
   "collectionName": "components_media_embed_videos",
   "info": {
     "displayName": "embed video",
-    "icon": "video"
+    "icon": "video",
+    "description": ""
   },
   "options": {},
   "attributes": {
-    "code": {
-      "type": "text"
+    "url": {
+      "type": "string",
+      "regex": "[-a-zA-Z0-9@:%._\\+~#=]{1,256}\\.[a-zA-Z0-9()]{1,6}\\b([-a-zA-Z0-9()@:%_\\+.~#?&//=]*)"
     }
   }
 }

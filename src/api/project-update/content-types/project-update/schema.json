@@ -29,6 +29,14 @@
     "updateDate": {
       "type": "date",
       "required": true
+    },
+    "featuredImage": {
+      "allowedTypes": [
+        "images"
+      ],
+      "type": "media",
+      "multiple": false,
+      "required": true
     }
   }
 }
